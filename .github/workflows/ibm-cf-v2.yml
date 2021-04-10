@@ -13,11 +13,11 @@ env:
   IBM_CF_API: https://api.us-south.cf.cloud.ibm.com
   IBM_CF_APP_MEM: 64M
 
-on:
-  workflow_dispatch:
-  repository_dispatch:
-  schedule:
-    - cron: 0 21 * * 5
+#on:
+ # workflow_dispatch:
+  #repository_dispatch:
+  #schedule:
+   # - cron: 0 21 * * 5
 
 jobs:
   deploy:
